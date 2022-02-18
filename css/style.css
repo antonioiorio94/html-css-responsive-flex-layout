@@ -297,6 +297,12 @@ line-height: 1.5em;
 }
 
 .card-btn{
+    margin-top: 2em;
+    padding: 1em 2em;
+    width: 70%;
+    border: none;
+    color: white;
+    border-radius: 50px;
     background-color:  rgb(179, 126, 248);
     
 }
@@ -326,7 +332,6 @@ line-height: 1.5em;
     
      
     line-height: 1.5rem;
-     text-align: left;
      margin-bottom: 1.5em;
 
 }
@@ -338,13 +343,64 @@ line-height: 1.5em;
 }
 
 
-.card-btn{
-    background-color:  rgb(179, 126, 248);
-    
-}
 
 
 
 /*--/SIXTH SECTION--*/
+
+/*---SEVENTH SECTION---*/
+.getstarted-section{
+    background-color: rgb(179, 126, 248);
+     margin-top: 3rem;
+ 
+ }
+ 
+ .registration-card{
+    padding: 1.5rem 0;
+    text-align: center;
+    line-height: 1.5em;
+ }
+
+ .registration-card p {
+     color: whitesmoke;
+ }
+
+ .registration-card h3{
+     margin-top: 1rem;
+     font-size: 2rem;
+     color: white;
+     font-weight: lighter;
+     line-height: 2rem;
+    }
+
+ #free-text{
+     margin: 3rem 0;
+     color: #e9c628;
+     font-size: 3rem;
+ }
+ 
+ .card p{
+     color: #579cdd;
+ }
+ 
+ .btn-white{
+     margin-top: 2em;
+     padding: 1em 2em;
+     width: 70%;
+     border: none;
+     background-color: whitesmoke;
+     color:rgb(179, 126, 248);
+     border-radius: 50px;
+ }
+
+ .copy-container  ul{
+     display: flex;
+     list-style-type: none;
+     color: white;
+     margin-top: 1rem;
+     flex-wrap: wrap;
+     justify-content: space-between;
+ }
+ /*---/SEVENT SECTION---*/
 
 /*---/MAIN---*/
