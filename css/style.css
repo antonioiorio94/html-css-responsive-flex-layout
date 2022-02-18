@@ -109,6 +109,26 @@ header{
 }
 
     /*---/FIRST CARD---*/
+
+    /*---SECOND CARD---*/
+
+    .card2{
+        background-color: rgb(241, 210, 212);
+
+    }
+
+    .card2 i, .card2 h2{
+        color: rgb(255, 102, 102);
+    }
+
+    .card2 p{
+        color: rgb(211, 131, 131);
+    }
+
+    /*---/SECOND CARD---*/
+
+
+
 /*---/SECOND SECTION---*/
 
 
