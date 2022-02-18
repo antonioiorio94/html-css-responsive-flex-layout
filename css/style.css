@@ -55,6 +55,7 @@ header{
 
 /*---MAIN---*/
 
+/*---FIRST SECTION---*/
 .demo-section{
    background-color: rgb(172, 206, 243);
     margin-top: 3rem;
@@ -81,4 +82,35 @@ header{
     color: white;
     border-radius: 50px;
 }
+/*---/FIRST SECTION---*/
+
+
+/*---SECOND SECTION---*/
+        /*---FIRST CARD---*/
+
+
+.skill-section{
+    background-color: rgb(172, 243, 178);
+     margin-top: 1rem;
+     border-radius: 5%;
+     padding: 2em;
+     text-align: center;
+     line-height: 1.5rem;
+}
+
+.skill-section i, h2{
+    color: rgb(47, 168, 47);
+    margin-bottom: 2rem;
+
+}
+
+.skill-section p{
+    color: rgb(105, 187, 105);
+}
+
+    /*---/FIRST CARD---*/
+/*---/SECOND SECTION---*/
+
+
+
 /*---/MAIN---*/
