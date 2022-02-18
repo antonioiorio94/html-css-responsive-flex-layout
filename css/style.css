@@ -145,6 +145,23 @@ header{
 
     /*---/THIRD CARD---*/
 
+     /*---FOURTH CARD---*/
+
+     .card4{
+        background-color: #e3d2ff;
+
+    }
+
+    .card4 i, .card4 h2{
+        color: rgb(179, 126, 248);
+    }
+
+    .card4 p{
+        color: rgb(183, 134, 206);
+    }
+
+    /*---/FOURTH CARD---*/
+
 
 
 /*---/SECOND SECTION---*/
