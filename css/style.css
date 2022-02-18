@@ -8,14 +8,26 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+
+/*--utilities--*/
+
+.width75{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.card{
+    line-height: 1.5em;
+}
+
 /*---HEADER---*/
 
 header{
-    background-color: rgb(51, 134, 182);
+    background-color:  #015eb4;
 }
 
 .header-content{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -38,6 +50,35 @@ header{
 }
 
 
+/*---/HEADER---*/
 
 
-/*---HEADER---*/
+/*---MAIN---*/
+
+.demo-section{
+   background-color: rgb(172, 206, 243);
+    margin-top: 3rem;
+    border-radius: 5%;
+    padding: 2em 2em 0 2em;
+
+}
+
+.card h2{
+    margin-bottom: 2rem;
+    color: #015eb4;
+}
+
+.card p{
+    color: #579cdd;
+}
+
+.btn{
+    margin-top: 2em;
+    padding: 1em 2em;
+    width: 70%;
+    border: none;
+    background-color: #015eb4 ;
+    color: white;
+    border-radius: 50px;
+}
+/*---/MAIN---*/
