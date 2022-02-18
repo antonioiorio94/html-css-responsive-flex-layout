@@ -98,7 +98,7 @@ header{
      line-height: 1.5rem;
 }
 
-.skill-section i, h2{
+.skill-section i, .skill-section h2{
     color: rgb(47, 168, 47);
     margin-bottom: 2rem;
 
@@ -165,6 +165,57 @@ header{
 
 
 /*---/SECOND SECTION---*/
+
+/*---THIRD SECTION---*/
+
+.planning-section{
+    background-color: rgb(179, 126, 248);
+    margin: 2rem 0;
+    padding: 2rem 0;
+}
+
+#item1{
+    width: -webkit-fill-available;
+}
+
+.ps-content h2, .ps-content p{
+color: white;
+margin: 1rem 0;
+line-height: 1.5em;
+
+}
+
+.app-card{
+    background-color: white;
+    border-radius: 5%;
+     padding: 2em;
+     text-align: center;
+     line-height: 1.5rem;
+
+}
+
+.app-card img {
+width: -webkit-fill-available;
+}
+
+.app-card i, .app-card h2{
+    color: black;
+}
+
+.app-card p{
+    color: black;
+    font-style: italic;
+}
+
+#download{
+  
+    background-color: rgb(179, 126, 248);
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+/*---/THIRD SECTION---*/
 
 
 
