@@ -7,3 +7,37 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+/*---HEADER---*/
+
+header{
+    background-color: rgb(51, 134, 182);
+}
+
+.header-content{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0;
+}
+
+.header-content h1{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 100;
+
+}
+
+.header-content button{
+    background: none;
+    border: none;
+    color: white;
+
+
+}
+
+
+
+
+/*---HEADER---*/
