@@ -172,6 +172,7 @@ header{
     background-color: rgb(179, 126, 248);
     margin: 2rem 0;
     padding: 2rem 0;
+    text-align: center;
 }
 
 #item1{
@@ -256,5 +257,55 @@ width: -webkit-fill-available;
         background-color:#e3d2ff;
     }
 /*---/FOURTH SECTION---*/
+
+/*--FIFTH SECTION--*/
+
+.benefit-section{
+    background-color: rgb(179, 126, 248);
+    margin: 2rem 0;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+
+
+.bn-content h2, .bn-content p{
+color: white;
+margin: 1rem 0;
+line-height: 1.5em;
+
+}
+
+.benefit-card-section{
+    background-color: rgb(235, 235, 235);
+    border-radius: 5%;
+     padding: 2em;
+     line-height: 1.5rem;
+     text-align: left;
+     margin-bottom: 1.5em;
+
+}
+
+
+.benefit-card i, .benefit-card h2{
+    color:  rgb(179, 126, 248);
+}
+
+.benefit-card p{
+    color:  rgb(179, 126, 248);
+    font-style: italic;
+}
+
+.card-btn{
+    background-color:  rgb(179, 126, 248);
+    
+}
+
+
+
+
+
+
+/*--/FIFTH SECTION--*/
 
 /*---/MAIN---*/
