@@ -217,6 +217,44 @@ width: -webkit-fill-available;
 }
 /*---/THIRD SECTION---*/
 
+/*---FOURTH SECTION---*/
 
+    .testimonials{
+        text-align: center;
+        line-height: 1.5rem;
+    
+    }
+
+    .testimonial-text h2{
+        color: rgb(179, 126, 248);
+        margin: 1em 0;
+    }
+
+    .testimonial-card{
+        background-color: rgb(172, 243, 178);
+         margin-top: 1rem;
+         border-radius: 5%;
+         padding: 2em;
+         text-align: center;
+         line-height: 1.5rem;
+    }
+
+    .testimonial-card img{
+        width: -webkit-fill-available;
+        border-radius: 50%;
+    }
+
+    .testimonial-card p{
+        font-weight: bolder;
+    }
+
+    .t-card2{
+        background-color: rgb(255, 228, 153); 
+    }
+
+    .t-card3{
+        background-color:#e3d2ff;
+    }
+/*---/FOURTH SECTION---*/
 
 /*---/MAIN---*/
