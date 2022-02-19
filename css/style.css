@@ -59,7 +59,7 @@ header{
 .demo-section{
    background-color: rgb(172, 206, 243);
     margin-top: 3rem;
-    border-radius: 5%;
+    border-radius: 20px;
     padding: 2em 2em 0 2em;
 
 }
@@ -91,8 +91,8 @@ header{
 
 .skill-section{
     background-color: rgb(172, 243, 178);
-     margin-top: 1rem;
-     border-radius: 5%;
+     margin-top: 3rem;
+     border-radius: 20px;
      padding: 2em;
      text-align: center;
      line-height: 1.5rem;
@@ -417,3 +417,25 @@ footer{
 
 
  /*---/FOOTER---*/
+
+
+
+ @media screen and (min-width:840px) {
+
+
+        .flex{
+            display: flex;
+        }
+
+        .skill-section {
+            flex-basis: 100%;
+            margin-left: 1rem;
+        }
+        
+
+        .second-section{
+
+        }
+        
+
+ }
