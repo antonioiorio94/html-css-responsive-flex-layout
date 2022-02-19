@@ -277,7 +277,7 @@ width: -webkit-fill-available;
 
 
 
-.benefit-section, .bn-content p{
+.benefit-section h2, .bn-content p{
 color: white;
 margin: 1rem 0;
 line-height: 1.5em;
@@ -286,7 +286,7 @@ line-height: 1.5em;
 
 .benefit-card-section{
     background-color: rgb(235, 235, 235);
-    border-radius: 5%;
+    border-radius: 20px;
      padding: 2em;
      line-height: 1.5rem;
      text-align: left;
@@ -373,7 +373,7 @@ line-height: 1.5em;
      color: whitesmoke;
  }
 
- .registration-card h3{
+ .registration-card h2{
      margin-top: 1rem;
      font-size: 2rem;
      color: white;
@@ -435,12 +435,12 @@ footer{
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+            align-items: inherit;
         }
 
 
-        .skill-section {
-            flex-basis: 100%;
-            margin-left: 1rem;
+        .card-margin {
+             margin-left: 1rem;
         }
         
 
@@ -463,5 +463,25 @@ footer{
             width: 30%;
             text-align: left;
         }
+
+ }
+
+ @media screen and (min-width: 1400px) {
+
+    .flex-1400 {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+#cell-img{
+    width: 300px;
+}
+
+.app-development{
+    width: 30%;
+    align-self: flex-end;
+    margin-left: 5rem;
+}
 
  }
