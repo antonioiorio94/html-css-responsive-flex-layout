@@ -234,11 +234,19 @@ width: -webkit-fill-available;
     .testimonial-card{
         background-color: rgb(172, 243, 178);
          margin-top: 1rem;
-         border-radius: 5%;
+         border-radius: 20px;
          padding: 2em;
          text-align: center;
          line-height: 1.5rem;
     }
+
+
+    .flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 
     .testimonial-card img{
         width: -webkit-fill-available;
@@ -269,7 +277,7 @@ width: -webkit-fill-available;
 
 
 
-.bn-content h2, .bn-content p{
+.benefit-section, .bn-content p{
 color: white;
 margin: 1rem 0;
 line-height: 1.5em;
@@ -423,9 +431,12 @@ footer{
  @media screen and (min-width:840px) {
 
 
-        .flex{
+        .flex-row{
             display: flex;
+            flex-direction: row;
+            justify-content: space-between;
         }
+
 
         .skill-section {
             flex-basis: 100%;
@@ -433,9 +444,13 @@ footer{
         }
         
 
-        .second-section{
 
+        .testimonial-card img{
+            width: 25%;
         }
         
+        .benefit-card-section {
+            margin: 2rem 2rem 0 0;
+        }
 
  }
